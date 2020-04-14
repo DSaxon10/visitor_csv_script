@@ -28,13 +28,15 @@ For first iteration of this script you will need to have:
 If you want to change the visitor amount on
       */
 
-const PERSONAL_ACCESS_TOKEN = 'YOUR_TOKEN';
 const LOG_API_URL = 'https://logx.optimizely.com/v1/events';
-const experiment_id = 'YOUR_EXPERIMENT_ID';
-const account_id = 'YOUR_ACCOUNT_ID';
+
+const PERSONAL_ACCESS_TOKEN = 'MY_TOKEN';
+const experiment_id = 'MY_EXPERIENT_ID';
+const account_id = 'MY_ACCOUNT_ID';
+const csv_path = '/users/dsaxon/desktop/LEAD_EXP_DATA.csv';
+
 const event_api_name = 'add_to_cart';
 const event_type = 'Custom';
-const csv_path = '/YOUR/PATH'
 let json;
 let body;
 
