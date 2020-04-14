@@ -8,25 +8,7 @@ const path = require('path');
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 const Immutable = require('immutable');
 
-/*
-Results Page Script w/ CSV download of Visitor ID, Experiment ID, and
-Variation ID and Name.
-
-For first iteration of this script you will need to have:
-
-      1. Have created an Experiment within optimizely
-      2. Limit the experiment to two variations (original and variation_one)
-        Ensure to leave the original variation name as `original`
-      3. Include one metric along with a revenue metric
-      4. Create Personal Access Token with Optimizely account
-      5. Enter experiment Id, Event Type, Account ID,
-      csv_path (ex:/users/dsaxon/desktop/file5.csv') and Personal Access Token.
-      6. Run within your node environment and you will get your csv file on your
-      desktop
-
-
-If you want to change the visitor amount on
-      */
+// Read README.md to run script properly!
 
 const LOG_API_URL = 'https://logx.optimizely.com/v1/events';
 
@@ -39,8 +21,6 @@ const event_api_name = 'add_to_cart';
 const event_type = 'Custom';
 let json;
 let body;
-
-
 
 // Options needed for REST API to gather Experiment Layer Data for script.
 
