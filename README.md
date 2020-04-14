@@ -1,5 +1,7 @@
 # About this script
-The provided script will populate visitors to your experiment and store each visitor's id, experiment id and variation id within a csv file. You are able to adjust your desired visitor amount and path where you would like the csv saved.
+The provided script will populate visitors to your experiment and store each visitor's id, experiment id and variation id within a csv file. You are able to adjust your desired visitor amount and path where you would like the csv saved. 
+
+Using Node to run the script.
 
 The default amount of visitors is set to 3000. (You can adjust value within the `state` object of the `Visitor_Generator_and_CSV.js` script. Read more in the Bonus section)
 
