@@ -33,7 +33,7 @@ const LOG_API_URL = 'https://logx.optimizely.com/v1/events';
 const PERSONAL_ACCESS_TOKEN = 'MY_TOKEN';
 const experiment_id = 'MY_EXPERIENT_ID';
 const account_id = 'MY_ACCOUNT_ID';
-const csv_path = '/users/dsaxon/desktop/LEAD_EXP_DATA.csv';
+const csv_path = '/My/Path/file.csv';
 
 const event_api_name = 'add_to_cart';
 const event_type = 'Custom';
