@@ -10,7 +10,7 @@ In order to demo the Optimizely Data and Attribution for Salesforce app (DNA) wi
 
 # How to use
 
-### Pre-Requisite 
+### Prerequisite 
 
 #### Create an Experiment
 1. Create A/B Experiment within your Optimizely Project
